@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+.rotate-button {
+  width: 60px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 2px;
+  text-align: center;
+  outline: none;
+}
+
+.get-country, .get-country:link, .get-country:visited {
+  width: 180px;
+  padding: 12px 16px;
+  border-radius: 12px;
+  transition: all .2s;
+}
+.get-country:hover {
+  box-shadow: rgba(7, 7, 6, 0.5) 0px 10px 30px;
+  transform: translateY(-3px);
+  webkit-transform: translateY(-3px);
+}
+.get-country:active {
+  box-shadow: none;
+  transform: translateY(-1px);
+}
+
+/* Tic Tac Toe */
+.tic_div {
+  display: flex;
+  justify-content: center;
+}
+.tic_table {
+  border: 1px solid #ccc;
+  background-color: #5ad5f9c7;
+  width: 30%;
+  float: left;
+  margin-top: 50px;
+}
+.tic_cell {
+  text-align: center;
+  height: 100px;
+  width: 50px;
+  border: 1px solid #554f4f;
+  font-weight: bold;
+  font-size: 36px;
+  cursor: pointer;
+}
+.tic_DivCell {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: none;
+}
+.tic_DivCell_X {
+  height: 60px;
+  font-size: 50px;
+  border: none;
+  border-radius: 0;
+  display: none;
+}
+.tic_show {
+  display: block;
+}
+.tic_cell_unclick {
+  pointer-events: none
+}
+.tic_paint {
+  background-color: orangered;
+}
+.tic_reset {
+  width: 120px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.sys_mode {
+  width: 180px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+/* Tic Tac Toe css ends here */
